@@ -24,11 +24,7 @@ def encryption(s):
         res.append(s[i::j1]+" ")
         #res.append(" ")
     return(res)
-    for i in res:
-        ret.append(i)
-        ret=list(ret)
-    print(ret)
-
+    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
